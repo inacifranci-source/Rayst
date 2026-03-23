@@ -1,8 +1,10 @@
+import BrandsSection from "../compontents/Brands"
 import Card from "../compontents/CardSection"
 import Hero from "../compontents/Hero"
 import InfoCard from "../compontents/InfoCard"
 import Marketers from "../compontents/Marketers"
 
+ 
 
 
 const Home = () =>{
@@ -12,6 +14,7 @@ const Home = () =>{
         <Card />
         <Marketers />
         <InfoCard />
+        <BrandsSection />
         </>
     )
 }

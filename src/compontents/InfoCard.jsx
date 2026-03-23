@@ -1,3 +1,4 @@
+import {ChartNoAxesCombined, Target} from "lucide-react"
 
 function InfoCard (){
   return(
@@ -5,7 +6,10 @@ function InfoCard (){
     <section className="info-cards">
       <div className="caixa">
         <div className="card">
+          <div>
+           <ChartNoAxesCombined />
           <h4>Fique Atualizado</h4>
+          </div>
           <p>Entenda as tecnologias mais recentes.</p>
         </div>
 
@@ -20,7 +24,9 @@ function InfoCard (){
         </div>
 
         <div className="card">
+
           <h4>Extensão</h4>
+          
           <p>Veja dados e tecnologias de qualquer site.</p>
         </div>
       </div>
